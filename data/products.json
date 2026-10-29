@@ -1,0 +1,330 @@
+[
+  {
+    "id": "p001",
+    "name": "Panty Señorial",
+    "ref": "DQ41717",
+    "brand": "Dulce Queen",
+    "category": "Panty Señorial",
+    "unitPrice": 3583,
+    "packPrice": 43000,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/panty-01.jpg",
+    "featured": true,
+    "tag": "Más vendido",
+    "offer": {
+      "active": true,
+      "percent": 16,
+      "unitPrice": 3000,
+      "packPrice": 36000,
+      "label": "16% OFF"
+    }
+  },
+  {
+    "id": "p002",
+    "name": "Panty Señorial surtido",
+    "ref": "DQ385",
+    "brand": "Dulce Queen",
+    "category": "Panty Señorial",
+    "unitPrice": 4350,
+    "packPrice": 52200,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Negro, azul, beige y palo de rosa",
+    "image": "assets/products/panty-02.jpg",
+    "featured": true,
+    "tag": "Pack x12",
+    "offer": {
+      "active": true,
+      "percent": 23,
+      "unitPrice": 3350,
+      "packPrice": 40200,
+      "label": "23% OFF"
+    }
+  },
+  {
+    "id": "p003",
+    "name": "Panty Señorial encaje",
+    "ref": "DQ1952",
+    "brand": "Dulce Queen",
+    "category": "Panty Señorial",
+    "unitPrice": 6333,
+    "packPrice": 76000,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/panty-03.jpg",
+    "featured": false,
+    "tag": "Encaje",
+    "offer": {
+      "active": true,
+      "percent": 20,
+      "unitPrice": 5067,
+      "packPrice": 60800,
+      "label": "20% OFF"
+    }
+  },
+  {
+    "id": "p004",
+    "name": "Panty Señorial clásico",
+    "ref": "DQ386",
+    "brand": "Dulce Queen",
+    "category": "Panty Señorial",
+    "unitPrice": 4350,
+    "packPrice": 52200,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Blanco, negro y menta",
+    "image": "assets/products/panty-04.jpg",
+    "featured": false,
+    "tag": "Pack x12",
+    "offer": {
+      "active": true,
+      "percent": 18,
+      "unitPrice": 3583,
+      "packPrice": 43000,
+      "label": "18% OFF"
+    }
+  },
+  {
+    "id": "p005",
+    "name": "Panty Señorial dúo",
+    "ref": "DQ1532",
+    "brand": "Dulce Queen",
+    "category": "Panty Señorial",
+    "unitPrice": 7183,
+    "packPrice": 86200,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/panty-05.jpg",
+    "featured": true,
+    "tag": "Nuevo",
+    "offer": {
+      "active": true,
+      "percent": 30,
+      "unitPrice": 5025,
+      "packPrice": 60300,
+      "label": "30% OFF"
+    }
+  },
+  {
+    "id": "p006",
+    "name": "Panty Señorial satín",
+    "ref": "DQ7010",
+    "brand": "Star Fashion",
+    "category": "Panty Señorial",
+    "unitPrice": 5067,
+    "packPrice": 60800,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/panty-06.jpg",
+    "featured": false,
+    "tag": "Pack x12",
+    "offer": {
+      "active": true,
+      "percent": 12,
+      "unitPrice": 4467,
+      "packPrice": 53600,
+      "label": "12% OFF"
+    }
+  },
+  {
+    "id": "p007",
+    "name": "Panty Señorial básico",
+    "ref": "DQ1489",
+    "brand": "Morenita",
+    "category": "Panty Señorial",
+    "unitPrice": 3833,
+    "packPrice": 46000,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/panty-07.jpg",
+    "featured": false,
+    "tag": "Precio especial"
+  },
+  {
+    "id": "p008",
+    "name": "Panty Señorial blanco",
+    "ref": "DQ1332",
+    "brand": "Morenita",
+    "category": "Panty Señorial",
+    "unitPrice": 3916,
+    "packPrice": 47000,
+    "packSize": 12,
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": "Blanco y surtidos",
+    "image": "assets/products/panty-08.jpg",
+    "featured": false,
+    "tag": "Pack x12"
+  },
+  {
+    "id": "b001",
+    "name": "Brasier dama surtido",
+    "ref": "DQ2299",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 9408,
+    "packPrice": 112896,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Surtidos",
+    "image": "assets/products/brasier-01.jpg",
+    "featured": true,
+    "tag": "Más vendido",
+    "offer": {
+      "active": true,
+      "percent": 15,
+      "unitPrice": 7992,
+      "packPrice": 95900,
+      "label": "15% OFF"
+    }
+  },
+  {
+    "id": "b002",
+    "name": "Brasier dama encaje",
+    "ref": "DQ2477",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 9908,
+    "packPrice": 118896,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Negro, beige y blanco",
+    "image": "assets/products/brasier-02.jpg",
+    "featured": false,
+    "tag": "Pack x12"
+  },
+  {
+    "id": "b003",
+    "name": "Brasier dama copa suave",
+    "ref": "DQ1424",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 11000,
+    "packPrice": 132000,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Rojo, beige y negro",
+    "image": "assets/products/brasier-03.jpg",
+    "featured": true,
+    "tag": "Nuevo",
+    "offer": {
+      "active": true,
+      "percent": 10,
+      "unitPrice": 9900,
+      "packPrice": 118800,
+      "label": "10% OFF"
+    }
+  },
+  {
+    "id": "b004",
+    "name": "Brasier dama básico",
+    "ref": "DQ2581",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 9908,
+    "packPrice": 118896,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Rojo, rosa y beige",
+    "image": "assets/products/brasier-04.jpg",
+    "featured": false,
+    "tag": "Pack x12"
+  },
+  {
+    "id": "b005",
+    "name": "Brasier 4 broches",
+    "ref": "DQ2237",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 14075,
+    "packPrice": 168900,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Negro, amarillo y rosa",
+    "image": "assets/products/brasier-05.jpg",
+    "featured": false,
+    "tag": "4 broches"
+  },
+  {
+    "id": "b006",
+    "name": "Brasier dama moderno",
+    "ref": "DQ2473",
+    "brand": "Dulce Queen",
+    "category": "Brasier Dama",
+    "unitPrice": 11491,
+    "packPrice": 137892,
+    "packSize": 12,
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": "Negro, rojo y turquesa",
+    "image": "assets/products/brasier-06.jpg",
+    "featured": false,
+    "tag": "Pack x12"
+  }
+]

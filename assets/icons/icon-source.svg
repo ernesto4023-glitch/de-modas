@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" fill="#080808"/>
+<circle cx="256" cy="256" r="194" fill="#f000c8" stroke="#ffffff" stroke-width="18"/>
+<path d="M184 206c0-66 144-66 144 0" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+<path d="M132 218h248l-18 170H150z" fill="#080808" stroke="#ffffff" stroke-width="8" stroke-linejoin="round"/>
+<path d="M156 238l100 83 100-83" fill="none" stroke="#f000c8" stroke-width="10" stroke-linejoin="round"/>
+<text x="256" y="337" font-size="82" font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle" fill="#ffffff">DM</text>
+</svg>

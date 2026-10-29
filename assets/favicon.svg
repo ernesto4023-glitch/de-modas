@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<rect width="64" height="64" rx="15" fill="#080808"/>
+<circle cx="32" cy="31" r="24" fill="#f000c8" stroke="#fff" stroke-width="3"/>
+<path d="M22 23c0-9 20-9 20 0" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<rect x="14" y="26" width="36" height="22" rx="4" fill="#fff"/>
+<text x="32" y="41" font-size="13" font-family="Arial,sans-serif" font-weight="900" text-anchor="middle" fill="#080808">DM</text>
+</svg>

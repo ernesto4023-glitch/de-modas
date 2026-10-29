@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080808">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="De Moda">
+  <meta name="description" content="Catálogo digital de ropa al por mayor de De Moda Distribuidora.">
+  <title>De Moda Distribuidora | Catálogo mayorista</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="icon-button menu-button" id="menuButton" aria-label="Abrir menú">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <button class="brand" data-view="home" aria-label="De Moda Distribuidora, inicio">
+        <span class="brand-bag"><span>DM</span></span>
+        <span class="brand-text"><strong>DE M<span>O</span>DA</strong><small>DISTRIBUIDORA</small></span>
+      </button>
+      <div class="top-actions">
+        <button class="icon-button" id="searchToggle" aria-label="Buscar productos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.2 16.2 4.3 4.3"/></svg>
+        </button>
+        <button class="icon-button cart-header-button" data-view="cart" aria-label="Ver carrito">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 3.5h2.7l2.1 12.2a2 2 0 0 0 2 1.7h8.9a2 2 0 0 0 1.9-1.5L22 8H6"/><circle cx="9.5" cy="20" r="1.2"/><circle cx="18" cy="20" r="1.2"/></svg>
+          <span class="count-badge" id="headerCartCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="search-bar" id="searchBar" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7.2"/><path d="m16.2 16.2 4.3 4.3"/></svg>
+      <input id="searchInput" type="search" placeholder="Buscar producto o referencia..." autocomplete="off">
+      <button id="clearSearch" aria-label="Limpiar búsqueda">×</button>
+    </div>
+
+    <main id="appContent" class="app-content" tabindex="-1"></main>
+
+    <nav class="bottom-nav" aria-label="Navegación principal">
+      <button class="nav-item active" data-view="home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg><span>Inicio</span>
+      </button>
+      <button class="nav-item" data-view="categories">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Categorías</span>
+      </button>
+      <button class="nav-item nav-cart" data-view="cart">
+        <span class="nav-icon-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 3.5h2.7l2.1 12.2a2 2 0 0 0 2 1.7h8.9a2 2 0 0 0 1.9-1.5L22 8H6"/><circle cx="9.5" cy="20" r="1.2"/><circle cx="18" cy="20" r="1.2"/></svg><span class="count-badge" id="navCartCount">0</span></span><span>Carrito</span>
+      </button>
+      <button class="nav-item" data-view="favorites">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.7c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6Z"/></svg><span>Favoritos</span>
+      </button>
+      <button class="nav-item" data-view="account">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.5" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg><span>Mi cuenta</span>
+      </button>
+    </nav>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden></div>
+  <section class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-label="Detalle del producto" hidden></section>
+  <section class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle" hidden></section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/product-fallback.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
